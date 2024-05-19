@@ -133,7 +133,7 @@ const experiences = [
     company_name: "Ecowood",
     icon: ecowood,
     iconBg: "#333333",
-    date: "Jun 2022 - Present",
+    date: "Jun 2022 - Sep 2023",
   },
   {
     title: "Teaching Assistant",
