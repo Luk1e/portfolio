@@ -38,7 +38,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
         As a frontend developer with expertise in JavaScript and React, I am passionate about crafting visually
-         appealing and user-friendly web experiences. With 2 years of professional experience, I specialize in 
+         appealing and user-friendly web experiences. With 1 years of professional experience, I specialize in 
          creating engaging and intuitive websites. Beyond frontend development, I also possess a solid understanding 
          of fundamental concepts in databases, algorithms, and data structures. I enjoy leveraging this knowledge to 
          build efficient and scalable solutions. I am actively seeking opportunities 
