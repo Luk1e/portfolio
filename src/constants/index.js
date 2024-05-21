@@ -11,8 +11,8 @@ import {
   reactjs,
   redux,
   ebook,
-  attendancetracker,
-  apocalypseacademy,
+  capstoneproject,
+  tbcxusaid,
   dicegame,
   tailwind,
   ubuntu,
@@ -129,7 +129,7 @@ const experiences = [
     date: "Jun 2022 - Oct 2022",
   },
   {
-    title: "Team Lead & Frontend Developer",
+    title: "Frontend Developer",
     company_name: "Ecowood",
     icon: ecowood,
     iconBg: "#333333",
@@ -147,32 +147,32 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
-    name: "Attendance Tracker",
+    name: "Capstone Project",
     description:
-      "Simplifying online student attendance tracking for teachers with an intuitive web-based solution.",
+      "I created this project as my bachelor capstone project. It is similar to Teams, using React for the frontend, Spring Boot for the backend, and MySQL for the database. The project consists of a classroom platform and an e-book feature.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "java",
         color: "pink-text-gradient",
       },
     ],
-    image: attendancetracker,
-    repo: "https://github.com/Luk1e/ForTeacher",
-    demo: "https://luk1e.github.io/ForTeacher/Main.html",
+    image: capstoneproject,
+    repo: "https://github.com/Luk1e/CapstoneProject",
+    demo: "https://github.com/Luk1e/CapstoneProject",
   },
   {
     id: "project-2",
-    name: "Apocalypse Academy",
+    name: "TBCxUSAID page",
     description:
-      "A mmersive post-apocalyptic game featuring multiple maps, captivating music, and various engaging features, where a lecturer transforms into a monster, chasing and devouring students in a thrilling adventure.",
+      "For my TBC USAID task, I developed the responsive, TBCxUSAID page of the TBC website.",
     tags: [
       {
         name: "react",
@@ -187,9 +187,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: apocalypseacademy,
-    repo: "https://github.com/Luk1e/Game",
-    demo: "https://luk1e.github.io/Game/Main.html",
+    image: tbcxusaid,
+    repo: "https://github.com/Luk1e/TBC",
+    demo: "https://luk1e.github.io/TBC/",
   },
 
   {

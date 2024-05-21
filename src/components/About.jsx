@@ -1,22 +1,24 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from '../hoc';
+import React from "react";
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { services } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <motion.div
-      variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
+      variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
+    >
       <div
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+      >
         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
         <h3 className="text-taupe text-[18px] font-bold text-center">
           {title}
@@ -35,14 +37,18 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        As a frontend developer with expertise in JavaScript and React, I am passionate about crafting visually
-         appealing and user-friendly web experiences. With 1 years of professional experience, I specialize in 
-         creating engaging and intuitive websites. Beyond frontend development, I also possess a solid understanding 
-         of fundamental concepts in databases, algorithms, and data structures. I enjoy leveraging this knowledge to 
-         build efficient and scalable solutions. I am actively seeking opportunities 
-        to contribute my frontend skills and broaden my expertise in a collaborative and innovative environment.
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
+      >
+        As a frontend developer with expertise in JavaScript and React, I am
+        passionate about crafting visually appealing and user-friendly web
+        experiences. With over a year of professional experience, I specialize
+        in creating engaging and intuitive websites. Beyond frontend
+        development, I have a solid understanding of fundamental concepts in
+        databases, algorithms, and data structures. I enjoy leveraging this
+        knowledge to build efficient and scalable solutions. I am actively
+        seeking opportunities to contribute my frontend skills and broaden my
+        expertise in a collaborative and innovative environment.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -54,4 +60,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, 'about');
+export default SectionWrapper(About, "about");

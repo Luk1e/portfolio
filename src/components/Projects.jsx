@@ -126,7 +126,7 @@ const Projects = () => {
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>
           {" "}
-          Showcasing My Early Journey in Programming (2020)
+          Showcasing My Early Journey in Programming
         </p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Projects. </h2>
       </motion.div>
@@ -137,39 +137,29 @@ const Projects = () => {
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
         >
           Welcome to my projects portfolio, where I present a collection of my
-          earlier works that I completed when I first started my programming
-          journey in 2020. These projects provided me with valuable
-          opportunities to apply my skills, overcome challenges, and showcase my
-          problem-solving abilities. Although these projects may not be recent,
-          they still serve as a testament to my growth and commitment to
-          learning.
+          works that I completed from I first started my programming journey in
+          2020. These projects provided me with valuable opportunities to apply
+          my skills, overcome challenges, and showcase my problem-solving
+          abilities.
           <br></br>
           <br></br>
-            The first project I embarked upon was specifically designed to
-            address a common challenge faced by teachers during the online
-            learning process. With the shift to virtual classrooms, teachers
-            encountered the inconvenience of manually recording attendance,
-            relying solely on Teams' Excel program, which only captured who
-            joined and left the meeting. As a result, they had to painstakingly
-            identify the students who were absent by cross-referencing the
-            attendance data. Recognizing the need for a more efficient solution,
-            I took it upon myself to develop a dedicated website that would
-            streamline this process, offering a simpler and more convenient way
-            to track student attendance.
-            <br></br>
+          My first project is my Bachelor's capstone project. It is built using
+          React for the frontend, Spring Boot for the backend, and MySQL as the
+          database. This project showcases my full stack knowledge. Creating a
+          complete full stack application was a new experience for me, although
+          I had previously developed the frontend of an application at work.
+          This project allowed me to extend my skills to the backend as well.
           <br></br>
-          
-            The second project I worked on was inspired by a lecturer who became
-            a monster chasing and eating students in a post-apocalyptic setting.
-            I created this project when I first learned JavaScript, although it
-            had some bugs due to my limited knowledge of event listeners at the
-            time. However, I used these issues as opportunities to showcase my
-            flexibility and problem-solving skills. Some students survived due
-            to an "immunity" feature, although in reality, it was a bug in my
-            code. Despite its flaws, this project demonstrated my willingness to
-            explore new ideas and push the boundaries of my programming
-            abilities.
-        
+          <br></br>
+          The second project was part of the TBC tasks, where I created the TBC
+          x USAID page for the TBC website using TypeScript, React, and
+          styled-components. This project demonstrates my ability to create
+          responsive websites based solely on visual references.
+          <br></br>
+          <br></br>
+          The other two projects are from my early days of learning. These were
+          my first projects when I started programming and they showcase my
+          learning ability and growth as a developer.
         </motion.p>
       </div>
 

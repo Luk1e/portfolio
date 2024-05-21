@@ -43,8 +43,8 @@ import usaid from "./company/usaid.png";
 import kiu from "./company/kiu.png";
 import ecowood from "./company/ecowood.png";
 
-import attendancetracker from "./projects/attendancetracker.png";
-import apocalypseacademy from "./projects/apocalypseacademy.png";
+import capstoneproject from "./projects/capstoneproject.png";
+import tbcxusaid from "./projects/tbcxusaid.png";
 import dicegame from "./projects/dicegame.png";
 import ebook from "./projects/ebook.png";
 
@@ -60,8 +60,8 @@ export {
   backend,
   ux,
   ebook,
-  attendancetracker,
-  apocalypseacademy,
+  capstoneproject,
+  tbcxusaid,
   frontend,
   DataStructures,
   github,

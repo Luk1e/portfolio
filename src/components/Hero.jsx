@@ -48,8 +48,9 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              I&apos;m a frontend developer from Georgia with 1 years of experience, 
-              specializing in creating engaging and intuitive websites.
+              I&apos;m a frontend developer from Georgia with over a year of
+              experience, specializing in creating engaging and intuitive
+              websites.
             </p>
           </div>
           <div
@@ -87,7 +88,6 @@ const Hero = () => {
 
         <div>
           {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-      
         </div>
       </section>
     </>
