@@ -149,7 +149,7 @@ const projects = [
     id: "project-1",
     name: "Capstone Project",
     description:
-      "I created this project as my bachelor capstone project. It is similar to Teams, using React for the frontend, Spring Boot for the backend, and MySQL for the database. The project consists of a classroom platform and an e-book feature.",
+      "I created this project as my bachelor capstone project. It is similar to Teams, using React for the frontend, Spring Boot for the backend, and MySQL for the database.",
     tags: [
       {
         name: "react",
@@ -166,7 +166,7 @@ const projects = [
     ],
     image: capstoneproject,
     repo: "https://github.com/Luk1e/CapstoneProject",
-    demo: "https://github.com/Luk1e/CapstoneProject",
+    demo: "https://bestproject.buzz/",
   },
   {
     id: "project-2",
