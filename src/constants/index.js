@@ -25,6 +25,7 @@ import {
   usaid,
   kiu,
   ecowood,
+  lineate,
 } from "../assets";
 
 export const navLinks = [
@@ -48,11 +49,11 @@ const services = [
     icon: frontend,
   },
   {
-    title: "Database Developer",
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "UI/UX Design",
+    title: "Database Developer",
     icon: ux,
   },
   {
@@ -141,6 +142,20 @@ const experiences = [
     icon: kiu,
     iconBg: "#333333",
     date: "Mar 2023 – Present",
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Bachelor Project",
+    icon: kiu,
+    iconBg: "#333333",
+    date: "Mar 2024 – Jul 2024",
+  },
+  {
+    title: "Lineate Dev School Student",
+    company_name: "Lineate",
+    icon: lineate,
+    iconBg: "#333333",
+    date: "Jun 2024 – Jul 2024",
   },
 ];
 

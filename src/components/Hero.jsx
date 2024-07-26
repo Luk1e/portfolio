@@ -48,9 +48,10 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              I&apos;m a frontend developer from Georgia with over a year of
-              experience, specializing in creating engaging and intuitive
-              websites.
+              I&apos;m a full stack developer from Georgia with over a year of
+              professional experience in frontend development and project-based
+              experience in backend development and databases, specializing in
+              creating engaging and intuitive websites.
             </p>
           </div>
           <div

@@ -30,7 +30,8 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
-import ubuntu from "./tech/ubuntu.png";
+// changed to spring
+import ubuntu from "./tech/spring.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
@@ -42,6 +43,7 @@ import OCaml from "./tech/OCaml.png";
 import usaid from "./company/usaid.png";
 import kiu from "./company/kiu.png";
 import ecowood from "./company/ecowood.png";
+import lineate from "./company/lineate.png";
 
 import capstoneproject from "./projects/capstoneproject.png";
 import tbcxusaid from "./projects/tbcxusaid.png";
@@ -92,4 +94,5 @@ export {
   usaid,
   kiu,
   ecowood,
+  lineate,
 };
