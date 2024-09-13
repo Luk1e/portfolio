@@ -157,9 +157,14 @@ const Projects = () => {
           responsive websites based solely on visual references.
           <br></br>
           <br></br>
-          The other two projects are from my early days of learning. These were
-          my first projects when I started programming and they showcase my
-          learning ability and growth as a developer.
+          For my third project, I developed a Scheduler Application using
+          Angular. This app allows users to manage appointments efficiently,
+          featuring calendar integration, appointment creation, and
+          drag-and-drop functionality. I utilized RxJS for reactive programming
+          and implemented key Angular features such as dependency injection,
+          reactive forms, and Angular Material for UI components. The
+          application follows the reactive programming paradigm, ensuring smooth
+          data flow and a responsive user experience.
         </motion.p>
       </div>
 

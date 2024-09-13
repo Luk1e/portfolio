@@ -206,9 +206,31 @@ const projects = [
     repo: "https://github.com/Luk1e/TBC",
     demo: "https://luk1e.github.io/TBC/",
   },
-
   {
     id: "project-3",
+    name: "Scheduler",
+    description:
+      "The Scheduler Application is a dynamic tool for managing appointments, featuring a calendar view, appointment details, and drag-and-drop functionality for rescheduling.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ebook,
+    repo: "https://github.com/Luk1e/scheduler",
+    demo: "https://luk1e.github.io/scheduler/",
+  },
+  {
+    id: "project-4",
     name: "Dice Game",
     description: `A thrilling game where players roll dice, aiming to reach a total of 50 points while avoiding rolling a 1, adding an exciting mix of luck and strategy to each turn.`,
     tags: [
@@ -228,29 +250,6 @@ const projects = [
     image: dicegame,
     repo: "https://github.com/Luk1e/Dice/tree/master",
     demo: "https://luk1e.github.io/Dice/",
-  },
-  {
-    id: "project-4",
-    name: "E-Book",
-    description:
-      "E-Book is a web application allowing users to resell their books in a user-friendly platform.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ebook,
-    repo: "https://github.com/Luk1e/E-book/tree/master",
-    demo: "https://luk1e.github.io/E-book/",
   },
 ];
 
