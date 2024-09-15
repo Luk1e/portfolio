@@ -48,10 +48,11 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              I&apos;m a full stack developer from Georgia with over a year of
-              professional experience in frontend development and project-based
-              experience in backend development and databases, specializing in
-              creating engaging and intuitive websites.
+              I&apos;m a frontend developer with over a year of professional
+              experience and strong proficiency in creating engaging and
+              intuitive websites. In addition to my frontend expertise, I have
+              project-based experience in backend development, which gives me a
+              well-rounded full-stack perspective.
             </p>
           </div>
           <div

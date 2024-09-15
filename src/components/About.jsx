@@ -40,17 +40,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        As a full-stack developer, I am passionate about crafting both robust
-        backend solutions and engaging frontend experiences. With over a year of
-        professional experience, I excel in building scalable and efficient web
-        applications. My expertise spans creating visually appealing and
-        user-friendly interfaces as well as developing efficient backend
-        systems. I have a solid understanding of fundamental concepts in
-        databases, algorithms, and data structures. Familiar with project
-        management tools and methodologies, including Jira, Scrum, and the
-        Waterfall model, I am eager to contribute my comprehensive skill set to
-        a collaborative and innovative environment, expanding my expertise in
-        both frontend and backend development.
+        As a frontend developer with over a year of professional experience, I
+        am dedicated to crafting engaging and intuitive user interfaces. I excel
+        in creating visually appealing and user-friendly web applications. In
+        addition to my frontend expertise, I have project-based experience in
+        backend development, which provides me with a well-rounded understanding
+        of building scalable and efficient systems. I am also knowledgeable in
+        fundamental concepts of databases, algorithms, and data structures.
+        Familiar with project management tools and methodologies such as Jira,
+        Scrum, and the Waterfall model, I am eager to contribute my skills to a
+        collaborative and innovative environment.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
