@@ -47,8 +47,9 @@ import lineate from "./company/lineate.png";
 
 import capstoneproject from "./projects/capstoneproject.png";
 import tbcxusaid from "./projects/tbcxusaid.png";
-import dicegame from "./projects/dicegame.png";
+import mcAdd from "./projects/mc.png";
 import ebook from "./projects/ebook.png";
+import housescout from "./projects/housescout.png";
 
 export {
   java,
@@ -74,7 +75,7 @@ export {
   pineappleHover,
   menu,
   resume,
-  dicegame,
+  mcAdd,
   send,
   sendHover,
   css,
@@ -95,4 +96,5 @@ export {
   kiu,
   ecowood,
   lineate,
+  housescout,
 };

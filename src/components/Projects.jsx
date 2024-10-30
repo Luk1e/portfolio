@@ -22,7 +22,7 @@ const ProjectCard = ({
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className={`relative ${
         active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
-      } flex items-center justify-center min-w-[170px] 
+      } flex items-center justify-center min-w-[150px] 
       h-[420px] cursor-pointer card-shadow`}
       onClick={() => handleClick(id)}
     >
@@ -38,7 +38,7 @@ const ProjectCard = ({
       />
 
       {active !== id ? (
-        <div className="flex items-center justify-start pr-[4.5rem]">
+        <div className="flex items-center justify-start pr-[7rem]">
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
@@ -136,35 +136,42 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
         >
-          Welcome to my projects portfolio, where I present a collection of my
-          works that I completed from I first started my programming journey in
-          2020. These projects provided me with valuable opportunities to apply
-          my skills, overcome challenges, and showcase my problem-solving
+          Welcome to my projects portfolio, where I showcase a collection of
+          works completed throughout my programming journey since 2022. These
+          projects have provided valuable opportunities to apply my skills,
+          overcome challenges, and demonstrate my problem-solving abilities.
+          <br></br>
+          <br></br>
+          One highlight is my Bachelor's capstone project, developed using React
+          for the frontend, Spring Boot for the backend, and MySQL for the
+          database. This project showcases my full-stack knowledge, allowing me
+          to expand my skills beyond frontend development to include backend
+          integration.
+          <br></br>
+          <br></br>
+          Another notable project is the TBC x USAID page for the TBC website,
+          created using TypeScript, React, and styled-components. This project
+          illustrates my ability to build responsive websites based on visual
+          references.
+          <br></br>
+          <br></br>I also developed a Scheduler Application using Angular, which
+          enables users to manage appointments efficiently with features like
+          calendar integration, appointment creation, and drag-and-drop
+          functionality. I leveraged RxJS for reactive programming and
+          incorporated Angular’s key features, including dependency injection
+          and reactive forms, to ensure a smooth user experience.
+          <br></br>
+          <br></br>
+          Additionally, I created House Scout, a platform that allows users to
+          register apartments for sale or rent and register agents. This project
+          features advanced filtering options based on region, price, space, and
+          other criteria, making it easy for users to find properties that meet
+          their needs. The platform is integrated with the backend using a REST
+          API structure, ensuring efficient data handling and communication.
+          <br></br>
+          <br></br>
+          Lastly, my project Simple McDonald's ad showcases my animation
           abilities.
-          <br></br>
-          <br></br>
-          My first project is my Bachelor's capstone project. It is built using
-          React for the frontend, Spring Boot for the backend, and MySQL as the
-          database. This project showcases my full stack knowledge. Creating a
-          complete full stack application was a new experience for me, although
-          I had previously developed the frontend of an application at work.
-          This project allowed me to extend my skills to the backend as well.
-          <br></br>
-          <br></br>
-          The second project was part of the TBC tasks, where I created the TBC
-          x USAID page for the TBC website using TypeScript, React, and
-          styled-components. This project demonstrates my ability to create
-          responsive websites based solely on visual references.
-          <br></br>
-          <br></br>
-          For my third project, I developed a Scheduler Application using
-          Angular. This app allows users to manage appointments efficiently,
-          featuring calendar integration, appointment creation, and
-          drag-and-drop functionality. I utilized RxJS for reactive programming
-          and implemented key Angular features such as dependency injection,
-          reactive forms, and Angular Material for UI components. The
-          application follows the reactive programming paradigm, ensuring smooth
-          data flow and a responsive user experience.
         </motion.p>
       </div>
 

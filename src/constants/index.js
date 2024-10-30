@@ -13,7 +13,7 @@ import {
   ebook,
   capstoneproject,
   tbcxusaid,
-  dicegame,
+  mcAdd,
   tailwind,
   ubuntu,
   git,
@@ -26,6 +26,7 @@ import {
   kiu,
   ecowood,
   lineate,
+  housescout,
 } from "../assets";
 
 export const navLinks = [
@@ -162,6 +163,29 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
+    name: "House Scout",
+    description:
+      "A comprehensive platform that allows users to register apartments for sale or rent, featuring advanced filters based on region, price, and space, while communicating with the backend and utilizing React on the frontend.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "java",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: housescout,
+    repo: "https://github.com/Luk1e/house-scout",
+    demo: "https://house-scout.onrender.com/",
+  },
+  {
+    id: "project-2",
     name: "Capstone Project",
     description:
       "I created this project as my bachelor capstone project. It is similar to Teams, using React for the frontend, Spring Boot for the backend, and MySQL for the database.",
@@ -184,7 +208,7 @@ const projects = [
     demo: "https://bestproject.buzz/",
   },
   {
-    id: "project-2",
+    id: "project-3",
     name: "TBCxUSAID page",
     description:
       "For my TBC USAID task, I developed the responsive, TBCxUSAID page of the TBC website.",
@@ -207,7 +231,7 @@ const projects = [
     demo: "https://luk1e.github.io/TBC/",
   },
   {
-    id: "project-3",
+    id: "project-4",
     name: "Scheduler",
     description:
       "The Scheduler Application is a dynamic tool for managing appointments, featuring a calendar view, appointment details, and drag-and-drop functionality for rescheduling.",
@@ -230,9 +254,9 @@ const projects = [
     demo: "https://luk1e.github.io/scheduler/",
   },
   {
-    id: "project-4",
-    name: "Dice Game",
-    description: `A thrilling game where players roll dice, aiming to reach a total of 50 points while avoiding rolling a 1, adding an exciting mix of luck and strategy to each turn.`,
+    id: "project-5",
+    name: "McDonald's ad",
+    description: `A visually engaging and responsive advertisement that showcases McDonald's latest menu items.`,
     tags: [
       {
         name: "nextjs",
@@ -247,9 +271,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: dicegame,
-    repo: "https://github.com/Luk1e/Dice/tree/master",
-    demo: "https://luk1e.github.io/Dice/",
+    image: mcAdd,
+    repo: "https://github.com/Luk1e/mcbanner",
+    demo: "https://luk1e.github.io/mcbanner/",
   },
 ];
 

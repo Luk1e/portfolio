@@ -50,9 +50,12 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               I&apos;m a frontend developer with over a year of professional
               experience and strong proficiency in creating engaging and
-              intuitive websites. In addition to my frontend expertise, I have
-              project-based experience in backend development, which gives me a
-              well-rounded full-stack perspective.
+              intuitive websites. My work includes developing user-friendly
+              interfaces and optimizing functionality for various platforms.
+              Additionally, I have project-based experience in backend
+              development, which enhances my full-stack perspective and allows
+              me to create seamless integrations between the frontend and
+              backend.
             </p>
           </div>
           <div

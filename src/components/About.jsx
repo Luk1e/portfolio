@@ -40,16 +40,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        As a frontend developer with over a year of professional experience, I
-        am dedicated to crafting engaging and intuitive user interfaces. I excel
-        in creating visually appealing and user-friendly web applications. In
-        addition to my frontend expertise, I have project-based experience in
-        backend development, which provides me with a well-rounded understanding
-        of building scalable and efficient systems. I am also knowledgeable in
-        fundamental concepts of databases, algorithms, and data structures.
-        Familiar with project management tools and methodologies such as Jira,
-        Scrum, and the Waterfall model, I am eager to contribute my skills to a
-        collaborative and innovative environment.
+        As a frontend developer, I have contributed to projects such as a
+        USAID-funded initiative enhancing ICT solutions for Micro, Small, and
+        Medium Enterprises (MSMEs). My expertise includes developing responsive
+        eCommerce platforms using React and managing state with Redux. I have
+        also mentored students in programming concepts as a Teaching Assistant,
+        focusing on JavaScript and TypeScript. At Lineate Dev School, I
+        integrated backend services with Spring Boot, ensuring secure
+        communication between frontend and backend. With a solid foundation in
+        full-stack development, I am dedicated to delivering exceptional user
+        experiences.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
