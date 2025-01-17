@@ -10,11 +10,8 @@ import {
   css,
   reactjs,
   redux,
-  ebook,
   capstoneproject,
   tbcxusaid,
-  mcAdd,
-  tailwind,
   ubuntu,
   git,
   mongodb,
@@ -26,6 +23,7 @@ import {
   kiu,
   ecowood,
   lineate,
+  formPlatform,
   housescout,
 } from "../assets";
 
@@ -163,6 +161,30 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
+    name: "Form Platform",
+    description:
+      "A full-stack form management platform with user authentication, multilingual support, and Salesforce integration. Built with React, Express, and MySQL, featuring robust security and cloud storage capabilities.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: formPlatform,
+    repo: "https://github.com/Luk1e/form-platform",
+    demo: "https://form-platform-client.onrender.com/",
+  },
+
+  {
+    id: "project-2",
     name: "House Scout",
     description:
       "A comprehensive platform that allows users to register apartments for sale or rent, featuring advanced filters based on region, price, and space, while communicating with the backend and utilizing React on the frontend.",
@@ -185,10 +207,10 @@ const projects = [
     demo: "https://house-scout.onrender.com/",
   },
   {
-    id: "project-2",
-    name: "Capstone Project",
+    id: "project-3",
+    name: "VSchool",
     description:
-      "I created this project as my bachelor capstone project. It is similar to Teams, using React for the frontend, Spring Boot for the backend, and MySQL for the database.",
+      "A full-stack team collaboration platform inspired by Microsoft Teams, featuring real-time communication and team management capabilities. Built with React, Spring Boot, and MySQL architecture.",
     tags: [
       {
         name: "react",
@@ -208,10 +230,11 @@ const projects = [
     demo: "https://bestproject.buzz/",
   },
   {
-    id: "project-3",
+    id: "project-4",
     name: "TBCxUSAID page",
     description:
-      "For my TBC USAID task, I developed the responsive, TBCxUSAID page of the TBC website.",
+      "A responsive landing page for TBC Bank's USAID partnership program, built with React, TypeScript, and Styled Components. Features modern design principles and seamless mobile responsiveness.",
+
     tags: [
       {
         name: "react",
@@ -229,51 +252,6 @@ const projects = [
     image: tbcxusaid,
     repo: "https://github.com/Luk1e/TBC",
     demo: "https://luk1e.github.io/TBC/",
-  },
-  {
-    id: "project-4",
-    name: "Scheduler",
-    description:
-      "The Scheduler Application is a dynamic tool for managing appointments, featuring a calendar view, appointment details, and drag-and-drop functionality for rescheduling.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ebook,
-    repo: "https://github.com/Luk1e/scheduler",
-    demo: "https://luk1e.github.io/scheduler/",
-  },
-  {
-    id: "project-5",
-    name: "McDonald's ad",
-    description: `A visually engaging and responsive advertisement that showcases McDonald's latest menu items.`,
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mcAdd,
-    repo: "https://github.com/Luk1e/mcbanner",
-    demo: "https://luk1e.github.io/mcbanner/",
   },
 ];
 

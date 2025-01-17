@@ -47,15 +47,12 @@ const Hero = () => {
                 Luka Gogiashvili
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              I&apos;m a frontend developer with over a year of professional
-              experience and strong proficiency in creating engaging and
-              intuitive websites. My work includes developing user-friendly
-              interfaces and optimizing functionality for various platforms.
-              Additionally, I have project-based experience in backend
-              development, which enhances my full-stack perspective and allows
-              me to create seamless integrations between the frontend and
-              backend.
+            <p className={`${styles.heroSubText} my-2  text-[#27272a]`}>
+              I'm a frontend developer from Georgia, passionate about creating
+              engaging and intuitive web experiences. With expertise in building
+              user-friendly interfaces and full-stack knowledge, I bridge the
+              gap between design and functionality to deliver seamless web
+              solutions.
             </p>
           </div>
           <div

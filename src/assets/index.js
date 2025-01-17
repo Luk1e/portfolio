@@ -47,9 +47,8 @@ import lineate from "./company/lineate.png";
 
 import capstoneproject from "./projects/capstoneproject.png";
 import tbcxusaid from "./projects/tbcxusaid.png";
-import mcAdd from "./projects/mc.png";
-import ebook from "./projects/ebook.png";
 import housescout from "./projects/housescout.png";
+import formPlatform from "./projects/form-platform.png";
 
 export {
   java,
@@ -62,7 +61,6 @@ export {
   luka,
   backend,
   ux,
-  ebook,
   capstoneproject,
   tbcxusaid,
   frontend,
@@ -75,7 +73,6 @@ export {
   pineappleHover,
   menu,
   resume,
-  mcAdd,
   send,
   sendHover,
   css,
@@ -97,4 +94,5 @@ export {
   ecowood,
   lineate,
   housescout,
+  formPlatform,
 };

@@ -126,7 +126,7 @@ const Projects = () => {
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>
           {" "}
-          Showcasing My Early Journey in Programming
+          Featured Projects & Professional Work
         </p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Projects. </h2>
       </motion.div>
@@ -136,42 +136,37 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
         >
-          Welcome to my projects portfolio, where I showcase a collection of
-          works completed throughout my programming journey since 2022. These
-          projects have provided valuable opportunities to apply my skills,
-          overcome challenges, and demonstrate my problem-solving abilities.
+          Welcome to my projects portfolio, where I showcase my best works that
+          demonstrate my problem-solving abilities and technical expertise.
           <br></br>
           <br></br>
-          One highlight is my Bachelor's capstone project, developed using React
-          for the frontend, Spring Boot for the backend, and MySQL for the
-          database. This project showcases my full-stack knowledge, allowing me
-          to expand my skills beyond frontend development to include backend
-          integration.
+          The Form Platform is a notable project built with React, Express, and
+          MySQL, featuring Salesforce integration. It enables users to create
+          interactive forms, submit responses, and register in Salesforce,
+          demonstrating my ability to develop complex full-stack solutions with
+          third-party integrations.
           <br></br>
           <br></br>
-          Another notable project is the TBC x USAID page for the TBC website,
-          created using TypeScript, React, and styled-components. This project
-          illustrates my ability to build responsive websites based on visual
-          references.
-          <br></br>
-          <br></br>I also developed a Scheduler Application using Angular, which
-          enables users to manage appointments efficiently with features like
-          calendar integration, appointment creation, and drag-and-drop
-          functionality. I leveraged RxJS for reactive programming and
-          incorporated Angular’s key features, including dependency injection
-          and reactive forms, to ensure a smooth user experience.
+          House Scout is a comprehensive real estate platform that allows users
+          to list properties for sale or rent and register as agents. The
+          platform features advanced filtering options based on region, price,
+          space, and other criteria, making property search efficient and
+          user-friendly. It's integrated with a REST API structure for robust
+          data handling.
           <br></br>
           <br></br>
-          Additionally, I created House Scout, a platform that allows users to
-          register apartments for sale or rent and register agents. This project
-          features advanced filtering options based on region, price, space, and
-          other criteria, making it easy for users to find properties that meet
-          their needs. The platform is integrated with the backend using a REST
-          API structure, ensuring efficient data handling and communication.
+          VSchool is an educational collaboration platform similar to Microsoft
+          Teams, where teachers can create virtual classrooms, manage students,
+          assign homework, and track grades. Built with React frontend, Spring
+          Boot backend, and MySQL database, enabling seamless classroom
+          management and assignment tracking.
           <br></br>
           <br></br>
-          Lastly, my project Simple McDonald's ad showcases my animation
-          abilities.
+          The TBC x USAID webpage, developed using TypeScript, React, and
+          styled-components, highlights my expertise in creating responsive and
+          visually appealing websites based on specific design requirements.
+          This project showcases my attention to detail and ability to implement
+          pixel-perfect designs.
         </motion.p>
       </div>
 

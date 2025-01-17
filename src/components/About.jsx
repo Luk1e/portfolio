@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        As a frontend developer, I have contributed to projects such as a
+        I have contributed to projects such as a
         USAID-funded initiative enhancing ICT solutions for Micro, Small, and
         Medium Enterprises (MSMEs). My expertise includes developing responsive
         eCommerce platforms using React and managing state with Redux. I have
