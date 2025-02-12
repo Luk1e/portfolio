@@ -44,13 +44,14 @@ import usaid from "./company/usaid.png";
 import kiu from "./company/kiu.png";
 import ecowood from "./company/ecowood.png";
 import lineate from "./company/lineate.png";
-
+import spacegoat from "./company/spacegoat.png";
 import capstoneproject from "./projects/capstoneproject.png";
 import tbcxusaid from "./projects/tbcxusaid.png";
 import housescout from "./projects/housescout.png";
 import formPlatform from "./projects/form-platform.png";
 
 export {
+  spacegoat,
   java,
   bwmap,
   nairobi,

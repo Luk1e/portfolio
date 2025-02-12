@@ -40,16 +40,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        I have contributed to projects such as a
-        USAID-funded initiative enhancing ICT solutions for Micro, Small, and
-        Medium Enterprises (MSMEs). My expertise includes developing responsive
-        eCommerce platforms using React and managing state with Redux. I have
-        also mentored students in programming concepts as a Teaching Assistant,
-        focusing on JavaScript and TypeScript. At Lineate Dev School, I
-        integrated backend services with Spring Boot, ensuring secure
-        communication between frontend and backend. With a solid foundation in
-        full-stack development, I am dedicated to delivering exceptional user
-        experiences.
+        Experienced Frontend Developer with a strong background in building
+        responsive and scalable web applications using React. I have contributed
+        to a USAID-funded initiative, enhancing ICT solutions for Micro, Small,
+        and Medium Enterprises (MSMEs) and developed full-stack applications as
+        a MERN developer. I have also implemented web security measures and
+        defenses in platforms to ensure data protection and system integrity. As
+        a Teaching Assistant, I have mentored students in JavaScript and
+        TypeScript, guiding them through core programming concepts and best
+        practices.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

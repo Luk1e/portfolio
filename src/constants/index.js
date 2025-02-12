@@ -25,6 +25,7 @@ import {
   lineate,
   formPlatform,
   housescout,
+  spacegoat,
 } from "../assets";
 
 export const navLinks = [
@@ -155,6 +156,13 @@ const experiences = [
     icon: lineate,
     iconBg: "#333333",
     date: "Jun 2024 – Jul 2024",
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "SpaceGoat",
+    icon: spacegoat,
+    iconBg: "#333333",
+    date: "Jan 2025 – Present",
   },
 ];
 

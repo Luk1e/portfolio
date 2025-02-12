@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src={worldmap}
+          src={bwmap}
           alt="world map"
           className="w-full h-full sm:hidden block object-cover"
         />
@@ -24,7 +24,7 @@ const Hero = () => {
         sm:bg-hero bg-hero-mobile overflow-hidden"
       >
         <div
-          className={`absolute inset-0 sm:top-[250px] top-[150px] 
+          className={`absolute inset-0  top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}
@@ -49,10 +49,7 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} my-2  text-[#27272a]`}>
               I'm a frontend developer from Georgia, passionate about creating
-              engaging and intuitive web experiences. With expertise in building
-              user-friendly interfaces and full-stack knowledge, I bridge the
-              gap between design and functionality to deliver seamless web
-              solutions.
+              engaging and intuitive web experiences.
             </p>
           </div>
           <div
