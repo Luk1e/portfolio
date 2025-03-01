@@ -144,13 +144,6 @@ const experiences = [
     date: "Mar 2023 – Present",
   },
   {
-    title: "Full Stack Developer",
-    company_name: "Bachelor Project",
-    icon: kiu,
-    iconBg: "#333333",
-    date: "Mar 2024 – Jul 2024",
-  },
-  {
     title: "Lineate Dev School Student",
     company_name: "Lineate",
     icon: lineate,
