@@ -123,7 +123,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Team Lead & Frontend Developer",
+    title: "Frontend Developer",
     company_name: "USAID PROJECT",
     icon: usaid,
     iconBg: "#333333",
@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Ecowood",
     icon: ecowood,
     iconBg: "#333333",
-    date: "Jun 2022 - Sep 2023",
+    date: "Oct 2022 - Sep 2023",
   },
   {
     title: "Teaching Assistant",
@@ -142,13 +142,6 @@ const experiences = [
     icon: kiu,
     iconBg: "#333333",
     date: "Mar 2023 – Present",
-  },
-  {
-    title: "Lineate Dev School Student",
-    company_name: "Lineate",
-    icon: lineate,
-    iconBg: "#333333",
-    date: "Jun 2024 – Jul 2024",
   },
   {
     title: "Frontend Developer",

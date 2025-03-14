@@ -40,15 +40,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        Experienced Frontend Developer with a strong background in building
-        responsive and scalable web applications using React. I have contributed
-        to a USAID-funded initiative, enhancing ICT solutions for Micro, Small,
-        and Medium Enterprises (MSMEs) and developed full-stack applications as
-        a MERN developer. I have also implemented web security measures and
-        defenses in platforms to ensure data protection and system integrity. As
-        a Teaching Assistant, I have mentored students in JavaScript and
-        TypeScript, guiding them through core programming concepts and best
-        practices.
+        Experienced Frontend Developer with a strong background in React and
+        Redux. Flexible with different frameworks and solid full stack
+        development knowledge from working with multiple backend frameworks and
+        databases in side projects. Good understanding of web architecture,
+        APIs, security and common web attacks. Focused on building clean and
+        efficient applications
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

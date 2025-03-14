@@ -136,8 +136,8 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
         >
-          Welcome to my projects portfolio, where I showcase my best works that
-          demonstrate my problem-solving abilities and technical expertise.
+          Welcome to my projects portfolio, where I showcase my side projects
+          that highlight my problem-solving abilities and technical expertise.
           <br></br>
           <br></br>
           The Form Platform is a notable project built with React, Express, and
